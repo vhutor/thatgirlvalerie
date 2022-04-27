@@ -4,7 +4,7 @@ body {
   background-color: #FEF7F7;
 }
 
-h1 {
+h2 {
   color: #fd9999;
   font-family: 'Sacramento', cursive;
   font-size: 100px;
@@ -24,13 +24,26 @@ table {
   text-align: center;
 }
 
+.main-container {
+  display: inline-flex;
+  flex-direction: column;
+}
 
-.top-container {
+.introduction {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.header-container {
   opacity: .8;
-  /* display: flex;
+  display: inline-flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-content: center; */
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.portrait {
+  margin: 20px;
 }
 
 .center {
