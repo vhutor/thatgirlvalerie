@@ -27,7 +27,13 @@ table {
 .main-container {
   display: inline-flex;
   flex-direction: column;
+  width: 80%;
 }
+
+.middle-container {
+  display: inline-flex;
+}
+
 
 .introduction {
   display: inline-flex;
@@ -35,16 +41,36 @@ table {
   flex-grow: 1;
 }
 
+.first-line-container {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.second-line-container {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.table-container {
+  display: inline-flex;
+  flex-direction: column;
+
+}
+
+.second-block {
+  display: inline-flex;
+  flex-direction: column;
+}
+
 .header-container {
   opacity: .8;
   display: inline-flex;
   flex-direction: row;
-  align-items: stretch;
-  flex-wrap: wrap;
 }
 
 .portrait {
   margin: 20px;
+  display: inline-flex;
 }
 
 .center {

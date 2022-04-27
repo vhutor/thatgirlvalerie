@@ -14,7 +14,9 @@
 <body>
   <div class="main-container">
     <div class="header-container">
-      <img class="portrait" src="images/portrait.png">
+      <div class="portrait">
+        <img src="images/portrait.png">
+      </div>
       <div class="introduction">
         <h1> I'm Valerie</h1>
         <!-- Incluce gmail link -->
@@ -33,21 +35,21 @@
       <br>
     </div>
     <div class="middle-container">
-      <table class="center">
-        <tr>
-          <td rowspan = "2"><a href="hobbies.html"><img src="images/work-and-study.png" alt="work-and-study-link"></a></td>
-          <td><a href="hobbies.html"><img src="images/achievements.png" alt="achievements-link"></a></td>
-          <td rowspan = "2"><a href="hobbies.html"><img src="images/writing.png" alt="work-and-study-link"></a></td>
-        </tr>
-        <tr>
-          <td><a href="hobbies.html"><img src="images/challenges.png" alt="challenges-link"></a></td>
-        </tr>
-        <tr>
-          <td><a href="hobbies.html"><img src="images/reading.png" alt="reading-link"></a></td>
-          <td><a href="hobbies.html"><img src="images/exploring.png" alt="exploring-link"></a></td>
-          <td><a href="hobbies.html"><img src="images/goals.png" alt="goals-link"></a></td>
-        </tr>
-      </table>
+      <div class="table-container">
+        <div class="first-line-container">
+          <a href="work-and-study.html"><img src="images/work-and-study.png" alt="work-and-study-link"></a>
+          <div class="second-block">
+            <a href="achievements.html"><img src="images/achievements.png" alt="achievements-link"></a>
+            <a href="hobbies.html"><img src="images/challenges.png" alt="challenges-link"></a>
+          </div>
+          <a href="hobbies.html"><img src="images/writing.png" alt="work-and-study-link">
+        </div>
+        <div class="second-line-container">
+          <a href="hobbies.html"><img src="images/reading.png" alt="reading-link"></a>
+          <a href="hobbies.html"><img src="images/exploring.png" alt="exploring-link"></a>
+          <a href="hobbies.html"><img src="images/goals.png" alt="goals-link"></a>
+        </div>
+      </div>
     </div>
   </div>
 </body>
