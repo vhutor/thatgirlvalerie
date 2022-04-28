@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   text-align: center;
@@ -30,9 +31,162 @@ table {
   width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
+/* ==== GRID SYSTEM ==== */
 
+.container {
+  width: 100%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 90%;
+}
+
+.col-1-sm {
+  width: 4.33%;
+}
+
+.col-2-sm {
+  width: 12.66%;
+}
+
+.col-3-sm {
+  width: 21%;
+}
+
+.col-4-sm {
+  width: 29.33%;
+}
+
+.col-5-sm {
+  width: 37.66%;
+}
+
+.col-6-sm {
+  width: 46%;
+}
+
+.col-7-sm {
+  width: 54.33%;
+}
+
+.col-8-sm {
+  width: 62.66%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33%;
+}
+
+.col-11-sm {
+  width: 87.66%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+  .col-1 {
+    width: 4.33%;
+  }
+
+  .col-2 {
+    width: 12.66%;
+  }
+
+  .col-3 {
+    width: 21%;
+  }
+
+  .col-4 {
+    width: 29.33%;
+  }
+
+  .col-5 {
+    width: 37.66%;
+  }
+
+  .col-6 {
+    width: 46%;
+  }
+
+  .col-7 {
+    width: 54.33%;
+  }
+
+  .col-8 {
+    width: 62.66%;
+  }
+
+  .col-9 {
+    width: 71%;
+  }
+
+  .col-10 {
+    width: 79.33%;
+  }
+
+  .col-11 {
+    width: 87.66%;
+  }
+
+  .col-12 {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .container {
+    width: 75%;
+    max-width: 60rem;
   }
 }
 
@@ -41,19 +195,107 @@ table {
   justify-content: center;
 }
 
-.i1 {
+.clicked {
   display: inline-block;
   width: 50px;
   height: 50px;
 }
 
-.i1.facebook {
-  background-image: url("../images/facebook.png");
+.clicked.facebook {
+  background-image: url("../images/social-media/facebook.png");
   background-size: contain;
 }
 
-.i1.facebook:hover {
-  background-image: url("../images/facebook-clicked.png");
+.clicked.facebook:hover {
+  background-image: url("../images/social-media/facebook-clicked.png");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.clicked.twitter {
+  background-image: url("../images/social-media/twitter.png");
+  background-size: contain;
+}
+
+.clicked.twitter:hover {
+  background-image: url("../images/social-media/twitter-clicked.png");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.clicked.instagram {
+  background-image: url("../images/social-media/instagram.png");
+  background-size: contain;
+}
+
+.clicked.instagram:hover {
+  background-image: url("../images/social-media/instagram-clicked.png");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.clicked.tiktok {
+  background-image: url("../images/social-media/tik-tok.png");
+  background-size: contain;
+}
+
+.clicked.tiktok:hover {
+  background-image: url("../images/social-media/tik-tok-clicked.png");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.clicked.telegram {
+  background-image: url("../images/social-media/telegram.png");
+  background-size: contain;
+}
+
+.clicked.telegram:hover {
+  background-image: url("../images/social-media/telegram-clicked.png");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.clicked.spotify {
+  background-image: url("../images/social-media/spotify.png");
+  background-size: contain;
+}
+
+.clicked.spotify:hover {
+  background-image: url("../images/social-media/spotify-clicked.png");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.clicked.soundcloud {
+  background-image: url("../images/social-media/sound-cloud.png");
+  background-size: contain;
+}
+
+.clicked.soundcloud:hover {
+  background-image: url("../images/social-media/sound-cloud-clicked.png");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.clicked.youtube {
+  background-image: url("../images/social-media/youtube.png");
+  background-size: contain;
+}
+
+.clicked.youtube:hover {
+  background-image: url("../images/social-media/youtube-clicked.png");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.clicked.pinterest {
+  background-image: url("../images/social-media/pinterest.png");
+  background-size: contain;
+}
+
+.clicked.pinterest:hover {
+  background-image: url("../images/social-media/pinterest-clicked.png");
   background-size: contain;
   text-decoration: none;
 }
