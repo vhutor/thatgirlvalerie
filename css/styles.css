@@ -13,12 +13,26 @@ h1 {
   margin-block-end: 0px;
 }
 
+p {
+  color: #fd9999;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
 div {
   margin: 0;
 }
 
 a {
   margin-right: 8px;
+  text-decoration: none;
+  color: #fd9999;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 table {
@@ -28,6 +42,7 @@ table {
 .body-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -35,6 +50,7 @@ table {
   opacity: .8;
   display: flex;
   flex-direction: row;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: center;
   padding-left: 5%;
@@ -63,6 +79,84 @@ table {
   display: inline-block;
   width: 50px;
   height: 50px;
+}
+
+.clicked.liberbee {
+  background-image: url("../images/social-media/liberbee.png");
+  background-size: contain;
+}
+
+.clicked.liberbee:hover {
+  background-image: url("../images/social-media/liberbee-clicked.png");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.clicked.goodreads {
+  background-image: url("../images/social-media/goodreads.png");
+  background-size: contain;
+}
+
+.clicked.goodreads:hover {
+  background-image: url("../images/social-media/goodreads-clicked.png");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.clicked.medium {
+  background-image: url("../images/social-media/medium.png");
+  background-size: contain;
+}
+
+.clicked.medium:hover {
+  background-image: url("../images/social-media/medium-clicked.png");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.clicked.figma {
+  background-image: url("../images/social-media/figma.png");
+  background-size: contain;
+}
+
+.clicked.figma:hover {
+  background-image: url("../images/social-media/figma-clicked.png");
+  background-size: contain;
+  text-decoration: none;
+}
+
+
+.clicked.notion {
+  background-image: url("../images/social-media/notion.png");
+  background-size: contain;
+}
+
+.clicked.notion:hover {
+  background-image: url("../images/social-media/notion-clicked.png");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.clicked.github {
+  background-image: url("../images/social-media/github.png");
+  background-size: contain;
+}
+
+.clicked.github:hover {
+  background-image: url("../images/social-media/github-clicked.png");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.clicked.linkedin {
+  background-image: url("../images/social-media/linkedin.png");
+  background-size: contain;
+}
+
+.clicked.linkedin:hover {
+  background-image: url("../images/social-media/linkedin-clicked.png");
+  background-size: contain;
+  text-decoration: none;
 }
 
 .clicked.facebook {
