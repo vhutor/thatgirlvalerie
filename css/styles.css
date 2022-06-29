@@ -35,27 +35,30 @@ table {
   opacity: .8;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   padding-left: 5%;
-  padding-top: 2%;
-  padding-right: 2%;
-  padding-bottom: 2%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
 
 .introduction {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  flex-wrap: wrap;
 }
 
 .middle-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   padding-left: 5%;
-  padding-top: 2%;
-  padding-right: 2%;
-  padding-bottom: 2%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
 
 .clicked {
