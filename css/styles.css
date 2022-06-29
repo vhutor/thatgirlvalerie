@@ -75,6 +75,11 @@ table {
   padding-bottom: 2%;
 }
 
+.links {
+  display: flex;
+  justify-content: center;
+}
+
 .clicked {
   display: inline-block;
   width: 50px;
