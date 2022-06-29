@@ -49,9 +49,13 @@ table {
 }
 
 .middle-container {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  width: 100%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
 }
 
 .clicked {
@@ -157,31 +161,4 @@ table {
   background-image: url("../images/social-media/pinterest-clicked.png");
   background-size: contain;
   text-decoration: none;
-}
-
-.first-line-container {
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.second-line-container {
-  display: inline-flex;
-  flex-direction: row;
-}
-
-.table-container {
-  display: inline-flex;
-  flex-direction: column;
-}
-
-.second-block {
-  display: inline-flex;
-  flex-direction: column;
-}
-
-.center {
-  margin-left: auto;
-  margin-right: auto;
 }
