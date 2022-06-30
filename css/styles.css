@@ -82,8 +82,8 @@ table {
 
 .selected {
   display: inline-block;
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
 }
 
 .clicked {
@@ -95,133 +95,181 @@ table {
 .selected.drawing {
   background-image: url("../images/main-page/svg/drawing.svg");
   background-size: contain;
+  box-shadow: 10px 10px 5px 0px rgb(153 153 153), inset 0 0 0 0 rgb(153 153 153);
+  transition: box-shadow 0.3s;
+  border-radius: 50px;
 }
 
 .selected.drawing:hover {
-  background-image: url("../images/main-page/svg/drawing-clicked.svg");
   background-size: contain;
   text-decoration: none;
+  box-shadow: 0 0 0 0 rgb(153 153 153), inset 10px 10px 5px 0px rgb(153 153 153);
+  transition: box-shadow 0.4s;
 }
 
 .selected.traveling {
   background-image: url("../images/main-page/svg/traveling.svg");
   background-size: contain;
+  box-shadow: 10px 10px 5px 0px rgb(153 153 153), inset 0 0 0 0 rgb(153 153 153);
+  transition: box-shadow 0.3s;
+  border-radius: 50px;
 }
 
 .selected.traveling:hover {
-  background-image: url("../images/main-page/svg/traveling-clicked.svg");
   background-size: contain;
   text-decoration: none;
+  box-shadow: 0 0 0 0 rgb(153 153 153), inset 10px 10px 5px 0px rgb(153 153 153);
+  transition: box-shadow 0.4s;
 }
 
 .selected.music {
   background-image: url("../images/main-page/svg/music.svg");
   background-size: contain;
+  box-shadow: 10px 10px 5px 0px rgb(153 153 153), inset 0 0 0 0 rgb(153 153 153);
+  transition: box-shadow 0.3s;
+  border-radius: 50px;
 }
 
 .selected.music:hover {
-  background-image: url("../images/main-page/svg/music-clicked.svg");
   background-size: contain;
   text-decoration: none;
+  box-shadow: 0 0 0 0 rgb(153 153 153), inset 10px 10px 5px 0px rgb(153 153 153);
+  transition: box-shadow 0.4s;
 }
 
 .selected.goals {
   background-image: url("../images/main-page/svg/goals.svg");
   background-size: contain;
+  box-shadow: 10px 10px 5px 0px rgb(153 153 153), inset 0 0 0 0 rgb(153 153 153);
+  transition: box-shadow 0.3s;
+  border-radius: 50px;
 }
 
 .selected.goals:hover {
-  background-image: url("../images/main-page/svg/goals-clicked.svg");
   background-size: contain;
   text-decoration: none;
+  box-shadow: 0 0 0 0 rgb(153 153 153), inset 10px 10px 5px 0px rgb(153 153 153);
+  transition: box-shadow 0.4s;
 }
 
 .selected.reading {
   background-image: url("../images/main-page/svg/reading.svg");
   background-size: contain;
+  box-shadow: 10px 10px 5px 0px rgb(153 153 153), inset 0 0 0 0 rgb(153 153 153);
+  transition: box-shadow 0.3s;
+  border-radius: 50px;
 }
 
 .selected.reading:hover {
-  background-image: url("../images/main-page/svg/reading-clicked.svg");
   background-size: contain;
   text-decoration: none;
+  box-shadow: 0 0 0 0 rgb(153 153 153), inset 10px 10px 5px 0px rgb(153 153 153);
+  transition: box-shadow 0.4s;
 }
 
 .selected.writing {
   background-image: url("../images/main-page/svg/writing.svg");
   background-size: contain;
-}
-
-.selected.writing:hover {
-  background-image: url("../images/main-page/svg/writing-clicked.svg");
-  background-size: contain;
-  text-decoration: none;
+  box-shadow: 10px 10px 5px 0px rgb(153 153 153), inset 0 0 0 0 rgb(153 153 153);
+  transition: box-shadow 0.3s;
+  border-radius: 50px;
 }
 
 .selected.goals {
   background-image: url("../images/main-page/svg/goals.svg");
   background-size: contain;
-}
-
-.selected.goals:hover {
-  background-image: url("../images/main-page/svg/goals-clicked.svg");
-  background-size: contain;
-  text-decoration: none;
+  box-shadow: 10px 10px 5px 0px rgb(153 153 153), inset 0 0 0 0 rgb(153 153 153);
+  transition: box-shadow 0.3s;
+  border-radius: 50px;
 }
 
 .selected.achievements {
   background-image: url("../images/main-page/svg/achievements.svg");
   background-size: contain;
+  box-shadow: 10px 10px 5px 0px rgb(153 153 153), inset 0 0 0 0 rgb(153 153 153);
+  transition: box-shadow 0.3s;
+  border-radius: 50px;
 }
 
 .selected.achievements:hover {
-  background-image: url("../images/main-page/svg/achievements-clicked.svg");
   background-size: contain;
   text-decoration: none;
+  box-shadow: 0 0 0 0 rgb(153 153 153), inset 10px 10px 5px 0px rgb(153 153 153);
+  transition: box-shadow 0.4s;
+}
+
+.selected.goals:hover {
+  background-size: contain;
+  text-decoration: none;
+  box-shadow: 0 0 0 0 rgb(153 153 153), inset 10px 10px 5px 0px rgb(153 153 153);
+  transition: box-shadow 0.4s;
+}
+
+.selected.writing:hover {
+  background-size: contain;
+  text-decoration: none;
+  box-shadow: 0 0 0 0 rgb(153 153 153), inset 10px 10px 5px 0px rgb(153 153 153);
+  transition: box-shadow 0.4s;
 }
 
 .selected.work-and-study {
   background-image: url("../images/main-page/svg/work-and-study.svg");
   background-size: contain;
+  box-shadow: 10px 10px 5px 0px rgb(153 153 153), inset 0 0 0 0 rgb(153 153 153);
+  transition: box-shadow 0.3s;
+  border-radius: 50px;
 }
 
 .selected.work-and-study:hover {
-  background-image: url("../images/main-page/svg/work-and-study-clicked.svg");
   background-size: contain;
   text-decoration: none;
+  box-shadow: 0 0 0 0 rgb(153 153 153), inset 10px 10px 5px 0px rgb(153 153 153);
+  transition: box-shadow 0.4s;
 }
 
 .selected.picture1 {
   background-image: url("../images/picture/picture1.svg");
   background-size: contain;
+  box-shadow: 10px 10px 5px 0px rgb(153 153 153), inset 0 0 0 0 rgb(153 153 153);
+  transition: box-shadow 0.3s;
+  border-radius: 50px;
 }
 
 .selected.picture1:hover {
-  background-image: url("../images/picture/picture1-clicked.svg");
   background-size: contain;
   text-decoration: none;
+  box-shadow: 0 0 0 0 rgb(153 153 153), inset 10px 10px 5px 0px rgb(153 153 153);
+  transition: box-shadow 0.4s;
 }
 
 .selected.picture2 {
   background-image: url("../images/picture/picture2.svg");
   background-size: contain;
+  box-shadow: 10px 10px 5px 0px rgb(153 153 153), inset 0 0 0 0 rgb(153 153 153);
+  transition: box-shadow 0.3s;
+  border-radius: 50px;
 }
 
 .selected.picture2:hover {
-  background-image: url("../images/picture/picture2-clicked.svg");
   background-size: contain;
   text-decoration: none;
+  box-shadow: 0 0 0 0 rgb(153 153 153), inset 10px 10px 5px 0px rgb(153 153 153);
+  transition: box-shadow 0.4s;
 }
 
 .selected.picture3 {
   background-image: url("../images/picture/picture3.svg");
   background-size: contain;
+  box-shadow: 10px 10px 5px 0px rgb(153 153 153), inset 0 0 0 0 rgb(153 153 153);
+  transition: box-shadow 0.3s;
+  border-radius: 50px;
 }
 
 .selected.picture3:hover {
-  background-image: url("../images/picture/picture3-clicked.svg");
   background-size: contain;
   text-decoration: none;
+  box-shadow: 0 0 0 0 rgb(153 153 153), inset 10px 10px 5px 0px rgb(153 153 153);
+  transition: box-shadow 0.4s;
 }
 
 .clicked.liberbee {
