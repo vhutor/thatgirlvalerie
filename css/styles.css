@@ -80,10 +80,148 @@ table {
   justify-content: center;
 }
 
+.selected {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
 .clicked {
   display: inline-block;
   width: 50px;
   height: 50px;
+}
+
+.selected.drawing {
+  background-image: url("../images/main-page/svg/drawing.svg");
+  background-size: contain;
+}
+
+.selected.drawing:hover {
+  background-image: url("../images/main-page/svg/drawing-clicked.svg");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.selected.traveling {
+  background-image: url("../images/main-page/svg/traveling.svg");
+  background-size: contain;
+}
+
+.selected.traveling:hover {
+  background-image: url("../images/main-page/svg/traveling-clicked.svg");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.selected.music {
+  background-image: url("../images/main-page/svg/music.svg");
+  background-size: contain;
+}
+
+.selected.music:hover {
+  background-image: url("../images/main-page/svg/music-clicked.svg");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.selected.goals {
+  background-image: url("../images/main-page/svg/goals.svg");
+  background-size: contain;
+}
+
+.selected.goals:hover {
+  background-image: url("../images/main-page/svg/goals-clicked.svg");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.selected.reading {
+  background-image: url("../images/main-page/svg/reading.svg");
+  background-size: contain;
+}
+
+.selected.reading:hover {
+  background-image: url("../images/main-page/svg/reading-clicked.svg");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.selected.writing {
+  background-image: url("../images/main-page/svg/writing.svg");
+  background-size: contain;
+}
+
+.selected.writing:hover {
+  background-image: url("../images/main-page/svg/writing-clicked.svg");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.selected.goals {
+  background-image: url("../images/main-page/svg/goals.svg");
+  background-size: contain;
+}
+
+.selected.goals:hover {
+  background-image: url("../images/main-page/svg/goals-clicked.svg");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.selected.achievements {
+  background-image: url("../images/main-page/svg/achievements.svg");
+  background-size: contain;
+}
+
+.selected.achievements:hover {
+  background-image: url("../images/main-page/svg/achievements-clicked.svg");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.selected.work-and-study {
+  background-image: url("../images/main-page/svg/work-and-study.svg");
+  background-size: contain;
+}
+
+.selected.work-and-study:hover {
+  background-image: url("../images/main-page/svg/work-and-study-clicked.svg");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.selected.picture1 {
+  background-image: url("../images/picture/picture1.svg");
+  background-size: contain;
+}
+
+.selected.picture1:hover {
+  background-image: url("../images/picture/picture1-clicked.svg");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.selected.picture2 {
+  background-image: url("../images/picture/picture2.svg");
+  background-size: contain;
+}
+
+.selected.picture2:hover {
+  background-image: url("../images/picture/picture2-clicked.svg");
+  background-size: contain;
+  text-decoration: none;
+}
+
+.selected.picture3 {
+  background-image: url("../images/picture/picture3.svg");
+  background-size: contain;
+}
+
+.selected.picture3:hover {
+  background-image: url("../images/picture/picture3-clicked.svg");
+  background-size: contain;
+  text-decoration: none;
 }
 
 .clicked.liberbee {
