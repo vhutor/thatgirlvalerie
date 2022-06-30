@@ -2,7 +2,7 @@
 
 This repository is for designing and building my web site which I will use as my card. There will be different links and information about me.
 
-**My website**: https://vhutor.github.io/personal-web-site/
+**My website**: https://vhutor.github.io/thatgirlvalerie/
 
 **My links**:
 - [Figma design file for this website](https://www.figma.com/file/S9X1xihuopxbcFh4rz50HN/Valerie-Website?node-id=0%3A1) (If you see some improvements - please let me know in the comments)
