@@ -451,9 +451,15 @@ table {
   text-decoration: none;
 }
 
-@media screen and (max-width:1024px) {
+.social-media {
+
+}
+
+@media screen and (max-width:1000px) {
   .selected {
-    width: 500px;
-    height: 500px;
+    display: flex;
+    width: 600px;
+    height: 600px;
   }
+
 }
