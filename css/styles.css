@@ -84,6 +84,8 @@ table {
   display: inline-block;
   width: 280px;
   height: 280px;
+  padding-left: 4%;
+  margin-top: 2%;
 }
 
 .clicked {
@@ -447,4 +449,11 @@ table {
   background-image: url("../images/social-media/pinterest-clicked.png");
   background-size: contain;
   text-decoration: none;
+}
+
+@media screen and (max-width:1024px) {
+  .selected {
+    width: 500px;
+    height: 500px;
+  }
 }
